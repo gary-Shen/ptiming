@@ -1,10 +1,10 @@
-# per-time
+# ptiming
 A small tool for working with Web Performance API.
 
 ## Installation
 
 ```bash
-$ yarn add per-time
+$ yarn add ptiming
 ```
 
 ## Usage

@@ -1,14 +1,14 @@
 {
-  "name": "per-time",
+  "name": "ptiming",
   "version": "1.0.1",
   "description": "Performance Timing API measurement helpers",
-  "main": "dist/per-timing.umd.js",
+  "main": "dist/ptiming.umd.js",
   "scripts": {
     "build": "rollup -c"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gary-Shen/performance-timing.git"
+    "url": "git+https://github.com/gary-Shen/ptiming.git"
   },
   "keywords": [
     "performance timing",
@@ -18,9 +18,9 @@
   "author": "Gary Shen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gary-Shen/performance-timing/issues"
+    "url": "https://github.com/gary-Shen/ptiming/issues"
   },
-  "homepage": "https://github.com/gary-Shen/performance-timing#readme",
+  "homepage": "https://github.com/gary-Shen/ptiming#readme",
   "devDependencies": {
     "@babel/core": "^7.16.10",
     "@babel/plugin-transform-runtime": "^7.16.10",
