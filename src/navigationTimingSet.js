@@ -1,0 +1,61 @@
+export default [{
+  name: 'DNSLookup',
+  start: 'domainLookupStart',
+  end: 'domainLookupEnd',
+  description: 'DNS解析耗时',
+}, {
+  name: 'TCPConnection',
+  start: 'connectStart',
+  end: 'connectEnd',
+  description: 'TCP连接耗时',
+}, {
+  name: 'SSLConnection',
+  start: 'secureConnectionStart',
+  end: 'connectEnd',
+  description: 'SSL连接耗时',
+}, {
+  name: 'FirstByte',
+  start: 'domainLookupStart',
+  end: 'responseStart',
+  description: '第一个字节时间',
+}, {
+  name: 'TimeToInteractive',
+  start: 'fetchStart',
+  end: 'domInteractive',
+  description: '首次可交互时间',
+}, {
+  name: 'TTFB',
+  start: 'requestStart',
+  end: 'responseStart',
+  description: '网络请求时间（TTFB）',
+}, {
+  name: 'CompleteLoadDuration',
+  start: 'fetchStart',
+  end: 'loadEventStart',
+  description: '页面完全加载时间',
+}, {
+  name: 'DOMReady',
+  start: 'fetchStart',
+  end: 'domContentLoadedEventEnd',
+  description: 'DOM解析耗时',
+}, {
+  name: 'ResourceLoadDuration',
+  start: 'domContentLoadedEventEnd',
+  end: 'loadEventStart',
+  description: '资源加载耗时',
+}, {
+  name: 'Blank',
+  start: 'fetchStart',
+  end: 'responseEnd',
+  description: '白屏时间',
+}, {
+  name: 'TransferDuration',
+  start: 'responseStart',
+  end: 'responseEnd',
+  description: '数据传输耗时',
+}, {
+  name: 'RedirectDuration',
+  start: 'redirectStart',
+  end: 'redirectEnd',
+  description: '重定向耗时',
+}];
