@@ -1,8 +1,8 @@
 {
-  "name": "performance-timing",
-  "version": "1.0.0",
+  "name": "per-time",
+  "version": "1.0.1",
   "description": "Performance Timing API measurement helpers",
-  "main": "dist/performance-timing.umd.js",
+  "main": "dist/per-timing.umd.js",
   "scripts": {
     "build": "rollup -c"
   },

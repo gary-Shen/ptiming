@@ -1,0 +1,8 @@
+/src
+/node_modules
+/snapshot-duration.png
+/snapshot-table.png
+/yarn-error.log
+/.eslintrc.js
+/.eslintignore
+/rollup.config.js

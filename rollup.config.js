@@ -5,7 +5,7 @@ export default {
   input: 'src/index.js',
   output: [{
     format: 'umd',
-    file: './dist/performance-timing.umd.js',
+    file: './dist/per-timing.umd.js',
   }],
   plugins: [
     uglify(),

@@ -1,10 +1,10 @@
-# performance-timing
+# per-time
 A small tool for working with Web Performance API.
 
 ## Installation
 
 ```bash
-$ yarn add performance-timing
+$ yarn add per-time
 ```
 
 ## Usage
