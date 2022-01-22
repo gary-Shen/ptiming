@@ -29,7 +29,7 @@ export default [{
   end: 'responseStart',
   description: '网络请求时间（TTFB）',
 }, {
-  name: 'CompleteLoadDuration',
+  name: 'PageLoadDuration',
   start: 'fetchStart',
   end: 'loadEventStart',
   description: '页面完全加载时间',
